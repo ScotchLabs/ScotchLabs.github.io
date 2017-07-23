@@ -615,18 +615,26 @@ span.e {
 	margin-bottom: 1em;
 	color: #ec4700;
 }
+.contant-left h4 {
+	font-size: 1.2em;
+	font-weight: 600;
+	margin-bottom: 1em;
+	color: #ec4700;
+}
 .contant-left p {
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 1.9em;
-	margin-bottom: 1.8em;
 	color: #999;
 	width: 96%;
 }
-.contant-left >p:nth-of-type(1):first-letter{
-	font-size: 4em;
-	margin: 0.2em 0.1em 0em 0em;
-	float: left;
+.contant-left h6 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.9em;
+	margin-bottom: 1.8em;
+	color: #444444;
+	width: 96%;
 }
 .contant-left ul {
 	list-style: none;
@@ -637,7 +645,14 @@ span.e {
 }
 .contant-left ul li a {
 	color: #999;
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: 600;
+	vertical-align: super;
+	line-height: 1.6em;
+}
+.contant-left ul li p {
+	color: #999;
+	font-size: 12px;
 	font-weight: 600;
 	vertical-align: super;
 	line-height: 1.6em;
@@ -1193,6 +1208,9 @@ ul.res li a:hover,ul.res li a.active{
 }
 .contant-left h3 {
 	font-size: 1.4em;
+}
+.contant-left h4 {
+	font-size: 1em;
 }
 .contant-left p {
 	font-size: 13px;
