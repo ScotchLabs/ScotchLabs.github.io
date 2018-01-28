@@ -5,7 +5,8 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 h4, h5, h6 {margine-top: 1;}
-h1, h2, h3 {margin-top: 0;}
+h1, h2, h3 {margin-top: 0;
+			font-family: 'Futura', sans-serif}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
@@ -96,26 +97,7 @@ span.menu{
 	margin: 1.5em 0px 3em 0px;
 	color:#8E8E8E;
 }
-.banner-main a {
-	font-size: 1em;
-	font-weight: 600;
-	color: #ec4700;
-	border: 2px solid;
-	border-radius:3px; 
-  -webkit-border-radius:3px;
-  -moz-border-radius:3px;
-  -o-border-radius:3px;
-	padding: 10px 2em;
-	cursor:pointer;
-}
-.banner-main a:hover{
-	text-decoration:none;
-	color:#000;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition:  0.5s all;
-	-o-transition:  0.5s all;
-}
+
 .banner-main span{
 	background:url(../images/sprite.png)no-repeat;
 	display:block;
