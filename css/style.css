@@ -12,7 +12,7 @@ p {margin: 0;}
 html, body{
    font-family: 'Open Sans', sans-serif;
    font-size: 100%;
-   background:#fff; 
+   background:#fff;
 }
 /*--header style start here--*/
 .mother-grid{
@@ -57,8 +57,8 @@ span.menu{
 /*--header style end here--*/
 /*--banner style start here--*/
 .banner{
-	background:url(../images/shout.png)no-repeat;
-	min-height:580px;
+	background:url(../images/mouse_trap.jpg)no-repeat;
+	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -66,17 +66,26 @@ span.menu{
 	-ms-background-size:cover;
 }
 .banner-two{
-	background:url(../images/new_members.png)no-repeat;
-	min-height:580px;
+	background:url(../images/shout.png)no-repeat;
+	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-	-ms-background-size:cove
+	-ms-background-size:cover;
 }
 .banner-three{
+	background:url(../images/new_members.png)no-repeat;
+	min-height:600px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover
+}
+.banner-four{
 	background:url(../images/heathers_big.png)no-repeat;
-	min-height:580px;
+	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -84,18 +93,24 @@ span.menu{
 	-ms-background-size:cover;
 }
 .banner-main {
-	padding-top: 10em;
+	padding-top: 500px;
+}
+.box {
+	background-color: rgba(255, 255, 255, .66);
 }
 .banner-main h1 {
+	text-shadow: 2px 2px #000;
+	text-align: left;
 	font-size: 2em;
 	font-weight: 600;
-	color: #ec4700;
+	color: #ffffff;
 }
 .banner-main p {
 	font-size: 13px;
 	font-weight: 400;
 	margin: 1.5em 0px 3em 0px;
 	color:#8E8E8E;
+	background: #ffffff;
 }
 
 .banner-main span{
@@ -338,7 +353,7 @@ span.menu{
   -moz-border-radius:25%;
   -o-border-radius:25%;
 }
-/*--top grid style end here--*/ 
+/*--top grid style end here--*/
 /*--vedio start here--*/
 .video{
 	background:url(../images/banner.jpg)no-repeat;
@@ -647,7 +662,7 @@ span.e {
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 }
-.contant-left ul.aro li{ 
+.contant-left ul.aro li{
      list-style-image :url(../images/arrow.png);
 }
 .contant-banner {
@@ -1012,14 +1027,14 @@ iframe{
 /*--contact end here--*/
 /*--media quiries start here--*/
 @media(max-width:1366px){
-	
+
 }
 @media(max-width:1280px){
-	
+
 }
 @media(max-width:1024px){
 .banner {
-	min-height: 450px;	
+	min-height: 450px;
 }
 .banner-two{
 	min-height:450px;
