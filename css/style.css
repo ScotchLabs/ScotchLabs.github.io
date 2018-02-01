@@ -1041,6 +1041,9 @@ iframe{
 .banner-three{
 	min-height:450px;
 }
+.banner-four{
+	min-height: 450px;
+}
 .header-right ul li {
 	margin: 15px 13px 0px 0px;
 }
@@ -1091,6 +1094,9 @@ ul.res li a:hover,ul.res li a.active{
 	min-height: 375px;
 }
 .banner-three {
+	min-height: 375px;
+}
+.banner-four {
 	min-height: 375px;
 }
 .banner-main {
@@ -1173,6 +1179,9 @@ ul.res li a:hover,ul.res li a.active{
 	min-height: 310px;
 }
 .banner-three {
+	min-height: 310px;
+}
+.banner-four {
 	min-height: 310px;
 }
 .video {
@@ -1279,6 +1288,9 @@ span.menu img {
 	min-height: 235px;
 }
 .banner-three {
+	min-height: 235px;
+}
+.banner-four {
 	min-height: 235px;
 }
 .callbacks_tabs {
@@ -1495,6 +1507,9 @@ span.menu img {
 	min-height: 180px;
 }
 .banner-three {
+	min-height: 180px;
+}
+.banner-four {
 	min-height: 180px;
 }
 .grid {
