@@ -1112,6 +1112,9 @@ ul.res li a:hover,ul.res li a.active{
 .banner-four {
 	min-height: 375px;
 }
+.banner-temp {
+	min-height: 375px;
+}
 .banner-main {
 	padding-top: 5em;
 }
@@ -1195,6 +1198,9 @@ ul.res li a:hover,ul.res li a.active{
 	min-height: 310px;
 }
 .banner-four {
+	min-height: 310px;
+}
+.banner-temp {
 	min-height: 310px;
 }
 .video {
@@ -1305,6 +1311,9 @@ span.menu img {
 	min-height: 235px;
 }
 .banner-four {
+	min-height: 235px;
+}
+.banner-temp {
 	min-height: 235px;
 }
 .callbacks_tabs {
@@ -1524,6 +1533,9 @@ span.menu img {
 	min-height: 180px;
 }
 .banner-four {
+	min-height: 180px;
+}
+.banner-temp {
 	min-height: 180px;
 }
 .grid {
