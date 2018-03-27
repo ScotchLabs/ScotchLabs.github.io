@@ -1053,6 +1053,9 @@ iframe{
 .banner-four{
 	min-height: 450px;
 }
+.banner-temp{
+	min-height: 450px;
+}
 .header-right ul li {
 	margin: 15px 13px 0px 0px;
 }
