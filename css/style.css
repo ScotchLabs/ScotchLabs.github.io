@@ -57,7 +57,7 @@ span.menu{
 /*--header style end here--*/
 /*--banner style start here--*/
 .banner{
-	background:url(../images/wrap_up.jpg)no-repeat;
+	background:url(../images/almost_maine.png)no-repeat;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -85,6 +85,15 @@ span.menu{
 }
 .banner-four{
 	background:url(../images/heathers_big.png)no-repeat;
+	min-height:600px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
+.banner-temp{
+	background:url(../images/tisbert_tonight.png)no-repeat;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
