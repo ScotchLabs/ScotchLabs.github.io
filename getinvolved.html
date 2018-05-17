@@ -1,212 +1,203 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<title>Scotch'n'Soda Theatre</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<!--web-fonts-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-<!--js-->
-<script src="js/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-	</script>
-<!-- //end-smoth-scrolling -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Scotch'n'Soda Theatre</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!--web-fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!--js-->
+    <script src="js/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    <!-- //end-smoth-scrolling -->
 </head>
 <body>
-<!--header start here-->
-<div class="mother-grid">
-	<div class="container">
-		<div class="header">
-			<div class="header-left">
-				   <a href="index.html"> <img src="images/logo.png"> </a>
-			</div>
-			<span class="menu"> <img src="images/icon-1.png"></span>
-			<div class="clear"> </div>
-			<div class="header-right">
-				  <ul class="res">
-				  	   <li><a href="about.html">ABOUT</a></li>
-				  	   <li><a href="getinvolved.html">GET INVOLVED</a></li>
-				  	   <li><a href="events.html">CURRENT SEASON</a></li>
-				  	   <li><a href="subtroupes.html">SUBTROUPES</a></li>
-				  	   <li><a href="contact.html">CONTACT</a></li>
-				  </ul>
-				   <script>
-			                                                      $( "span.menu").click(function() {
-			                                                                                        $(  "ul.res" ).slideToggle("slow", function() {
-			                                                                                         // Animation complete.
-			                                                                                         });
-			                                                                                         });
-		                                                     </script>
-			</div>
-	<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<div class="services">
-	<div class="container">
-		<div class="services-main">
-			 <div class="col-md-8 services-left">
-				   <div class="service-top">
-					 <h3>GET INVOLVED!</h3>
-					 <h4>Stay Up-To-Date</h4>
-					   <p>Stay Up-To-Date by liking us on <a href="https://www.facebook.com/snstheatre/" target="_blank">Facebook</a> and joining our Facebook group <a href="https://www.facebook.com/groups/539703839419690/">S'n'Excursions</a> for all the latest news, events, social activities, and goings-ons.
-						 You can also join our D-List to get our Weekly Updates through email!</p>
-				 <div class="bwn">
-					 <a href="https://lists.andrew.cmu.edu/mailman/listinfo/sns-dlist" target="_blank">Join the D-List</a>
-				</div>
-				 </div>
-				  <div class="service-top">
-					 <h4>Audition</h4>
-					 <p>Auditions for TISBERT SKETCH COMEDY coming soon!</p>
+    <!--header start here-->
+    <div class="mother-grid">
+        <div class="container">
+            <div class="header">
+                <div class="header-left">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                </div>
+                <span class="menu"><img src="images/icon-1.png"></span>
+                <div class="clear"></div>
+                <div class="header-right">
+                    <ul class="res">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="getinvolved.html">GET INVOLVED</a></li>
+                        <li><a href="events.html">CURRENT SEASON</a></li>
+                        <li><a href="subtroupes.html">SUBTROUPES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <script>
+                        $("span.menu").click(function() {
+                            $("ul.res").slideToggle("slow", function() {
+                                // Animation complete.
+                            });
+                        });
+                    </script>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--/header end here-->
+    <div class="services">
+        <div class="container">
+            <div class="services-main">
+                <div class="col-md-8 services-left">
+                    <div class="service-top">
+                        <h3>GET INVOLVED!</h3>
+                        <h4>Stay Up-To-Date</h4>
+                        <p>Stay Up-To-Date by liking us on <a href="https://www.facebook.com/snstheatre/" target="_blank">Facebook</a> and joining our Facebook group <a href="https://www.facebook.com/groups/539703839419690/">S'n'Excursions</a> for all the latest news, events, social activities, and goings-ons. You can also join our D-List to get our Weekly Updates through email!</p>
+                        <div class="bwn">
+                            <a href="https://lists.andrew.cmu.edu/mailman/listinfo/sns-dlist" target="_blank">Join the D-List</a>
+                        </div>
+                    </div>
+                    <div class="service-top">
+                        <h4>Audition</h4>
+                        <p>Auditions for TISBERT SKETCH COMEDY coming soon!</p>
+                    </div>
+                    <div class="service-top">
+                        <h4>Join Tech</h4>
+                        <p>Be a part of all that jazz! Come learn how to get involved in all the amazing tech in store for CHICAGO at Tech Interest, Sunday, March 4th at 4:30 PM in Doherty Hall 1117. Can't make it to the event? Sign up for crews at the link below to get notified about upcoming trainings and builds.</p>
+                        <div class="bwn">
+                            <a href="https://goo.gl/forms/FbrAc6PBUbHrlA1P2" target="_blank">JOIN CREWS</a>
+                        </div>
+                    </div>
 
-				   </div>
-				   <div class="service-top">
-					 <h4>Join Tech</h4>
-					 <p>Be a part of all that jazz!
-						 Come learn how to get involved in all the amazing tech in store for CHICAGO at Tech Interest,
-					   Sunday, March 4th at 4:30 PM in Doherty Hall 1117. 
-						 Can't make it to the event? Sign up for crews at the link below to get notified about upcoming trainings and builds.</p>
-				<div class="bwn">
-					 <a href="https://goo.gl/forms/FbrAc6PBUbHrlA1P2" target="_blank">JOIN CREWS</a>
-				</div>
-				   </div>
-				  <div class="service-top">
-					 <h3>WEEKLY MEETINGS</h3>
-					 <p>All weekly meetings and workshops are open to all CMU students, regardless of experience or background! We're always welcoming new members at any point during the year.</p>
-				 </div>
-				  <div class="service-top">
-						 <p></p><p><h4>Board of Directors Weekly Meetings</h4></p>
-						 <p>Open to all! Witness the administrative side of Scotch'n'Soda and hear about all the org's goings-on.</p>
-				 	<p>Sundays @ 4:30-5:30pm<br>CUC 303</p>
-
-				   </div>
-					  <div class="service-top">
-						 <p></p><p><h4>Tisbert Sketch Comedy</h4></p>
-						 <p><b>Student College (StuCo) Workshops</b><br>Wednesdays @ 6:30–8:20pm <br>WH 5310</p>
-					  <p><b>Writing Meetings</b> <br>Sundays @ 3:30–5pm<br>BH 255B</p>
-				<div class="bwn">
-					 <a href="https://lists.andrew.cmu.edu/mailman/listinfo/sketch-troupe" target="_blank">Join the Tisbert D-List</a>
-				</div>
-				   </div>
-				 <div class="service-top">
-					 <h4>No Parking Players Improv Comedy</h4>
-					 <p><b>StuCo Workshops</b><br>Thursdays @ 8–10pm <br> PH A18A </p>
-					 <p><b>Sunday Shop</b><br>Sundays @ 8–10pm <br> BH 235A</p>
-					 <div class="bwn">
-					 <a href="https://lists.andrew.cmu.edu/mailman/listinfo/npp-workshop" target="_blank">Join the NPP D-List</a>
-				</div>
-
-				   </div>
-			 <div class="service-top">
-					 <h4>NewWorks Coffeehouse</h4>
-					 <p>NewWorks provides an opportunity for students to have their original work produced.
-						 Working on something you want to see realized on stage? Contact Maxine Ewing, NewWorks chair, at mrewing@andrew.cmu.edu.</p>
-				  <div class="bwn">
-					 <a href="https://lists.andrew.cmu.edu/mailman/listinfo/sns-workshop" target="_blank">Join the NewWorks D-List</a>
-				</div>
-				   </div>
-			   <div class="clearfix"> </div>
-			 </div>
-			 <div class="col-md-4 services-right">
-				 <img src="images/circle.jpg">
-			 </div>
-			 <div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!--footer start here-->
-<div class="footer">
-	<div class="container">
-		<div class="footer-main">
-			<div class="col-md-6 footer-top">
-				<h3>ABOUT US</h3>
-				<p>Scotch'n'Soda is a student-run theatre organization at Carnegie Mellon University. Its initial dedication was the creation and production of original musicals. Currently students are welcome to write, compose, design, direct, perform in, and otherwise become involved with every aspect of each production.</p>
-				<br>
-				<p>The organization is open to all Carnegie Mellon students from all backgrounds, and all performances are public with varying ticket prices.</p>
-			</div>
-			<div class="col-md-2 footer-top">
-				<h3>SITEMAP </h3>
-				<ul>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="getinvolved.html">GET INVOLVED</a></li>
-					<li><a href="events.html">CURRENT SEASON</a></li>
-					<li><a href="subtroupes.html">SUBTROUPES</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
-				</ul>
-				<div class="clear fix"> </div>
-			</div>
-			<div class="col-md-2 footer-top">
-				 <h3>GET SOCIAL</h3>
-				 <ul>
-					 <li><a href="https://www.instagram.com/scotchnsodatheatre" target="_blank"><img width="50px" src="images/instagram.svg"></a></li>
-					<li><a href="https://www.twitter.com/snstheatre" target="_blank"><img width="50px" src="images/twitter.svg"></a></li>
-					<li><a href="https://www.youtube.com/channel/UCYRoT4XEPocbe-3GNEutgIA" target="_blank"><img width="50px" src="images/002-youtube.svg"></a></li>
-					<li><a href="https://www.facebook.com/snstheatre/" target="_blank"><img width="50px" src="images/003-facebook.svg"></a></li>
-				</ul>
-			</div>
-			<div class="col-md-2 footer-top">
-				<h3>ADDRESS</h3>
-				<P>5000 Forbes Avenue</p>
-				<p>Pittsburgh, PA 15213</p>
-				<p>Basement of Cohen University Center</p>
-
-			</div>
-			<div class="clear fix"> </div>
-		</div>
-	</div>
-</div>
-<div class="copyright">
-	<div class="container">
-		<div class="copy-right-main">
-			<div class="col-md-6 copy-left">
-				<p>2018 &copy Scotch'n'Soda Theatre. Website created by William Liu</p>
-			</div>
-			<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear'
-								 		};
-										*/
-
-										$().UItoTop({ easingType: 'easeOutQuart' });
-
-									});
-								</script>
-					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
+                    <div class="service-top">
+                        <h3>WEEKLY MEETINGS</h3>
+                        <p>All weekly meetings and workshops are open to all CMU students, regardless of experience or background! We're always welcoming new members at any point during the year.</p>
+                    </div>
+                    <div class="service-top">
+                        <h4>Board of Directors Weekly Meetings</h4>
+                        <p>Open to all! Witness the administrative side of Scotch'n'Soda and hear about all the org's goings-on.</p>
+                        <p>Sundays @ 4:30-5:30pm<br>CUC 303</p>
+                    </div>
+                    <div class="service-top">
+                        <h4>Tisbert Sketch Comedy</h4>
+                        <p><b>Student College (StuCo) Workshops</b><br>Wednesdays @ 6:30–8:20pm <br>WH 5310</p>
+                        <p><b>Writing Meetings</b> <br>Sundays @ 3:30–5pm<br>BH 255B</p>
+                        <div class="bwn">
+                            <a href="https://lists.andrew.cmu.edu/mailman/listinfo/sketch-troupe" target="_blank">Join the Tisbert D-List</a>
+                        </div>
+                    </div>
+                    <div class="service-top">
+                        <h4>No Parking Players Improv Comedy</h4>
+                        <p><b>StuCo Workshops</b><br>Thursdays @ 8–10pm<br>PH A18A</p>
+                        <p><b>Sunday Shop</b><br>Sundays @ 8–10pm<br>BH 235A</p>
+                        <div class="bwn">
+                            <a href="https://lists.andrew.cmu.edu/mailman/listinfo/npp-workshop" target="_blank">Join the NPP D-List</a>
+                        </div>
+                    </div>
+                    <div class="service-top">
+                        <h4>NewWorks Coffeehouse</h4>
+                        <p>NewWorks provides an opportunity for students to have their original work produced. Working on something you want to see realized on stage? Contact Maxine Ewing, NewWorks chair, at mrewing@andrew.cmu.edu.</p>
+                        <div class="bwn">
+                            <a href="https://lists.andrew.cmu.edu/mailman/listinfo/sns-workshop" target="_blank">Join the NewWorks D-List</a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-4 services-right">
+                    <img src="images/circle.jpg">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--footer start here-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="col-md-6 footer-top">
+                    <h3>ABOUT US</h3>
+                    <p>Scotch'n'Soda is a student-run theatre organization at Carnegie Mellon University. Its initial dedication was the creation and production of original musicals. Currently students are welcome to write, compose, design, direct, perform in, and otherwise become involved with every aspect of each production.</p>
+                    <br>
+                    <p>The organization is open to all Carnegie Mellon students from all backgrounds, and all performances are public with varying ticket prices.</p>
+                </div>
+                <div class="col-md-2 footer-top">
+                    <h3>SITEMAP</h3>
+                    <ul>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="getinvolved.html">GET INVOLVED</a></li>
+                        <li><a href="events.html">CURRENT SEASON</a></li>
+                        <li><a href="subtroupes.html">SUBTROUPES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <div class="clear fix"></div>
+                </div>
+                <div class="col-md-2 footer-top">
+                     <h3>GET SOCIAL</h3>
+                     <ul>
+                        <li><a href="https://www.instagram.com/scotchnsodatheatre" target="_blank"><img width="50px" src="images/instagram.svg"></a></li>
+                        <li><a href="https://www.twitter.com/snstheatre" target="_blank"><img width="50px" src="images/twitter.svg"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCYRoT4XEPocbe-3GNEutgIA" target="_blank"><img width="50px" src="images/002-youtube.svg"></a></li>
+                        <li><a href="https://www.facebook.com/snstheatre/" target="_blank"><img width="50px" src="images/003-facebook.svg"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 footer-top">
+                    <h3>ADDRESS</h3>
+                    <p>5000 Forbes Avenue</p>
+                    <p>Pittsburgh, PA 15213</p>
+                    <p>Basement of Cohen University Center</p>
+                </div>
+                <div class="clear fix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="copy-right-main">
+                <div class="col-md-6 copy-left">
+                    <p>2018 &copy Scotch'n'Soda Theatre. Website created by William Liu</p>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        /*
+                        var defaults = {
+                              containerID: 'toTop', // fading element id
+                            containerHoverID: 'toTopHover', // fading element hover id
+                            scrollSpeed: 1200,
+                            easingType: 'linear'
+                         };
+                        */
+                        $().UItoTop({ easingType: 'easeOutQuart' });
+                    });
+                </script>
+                <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

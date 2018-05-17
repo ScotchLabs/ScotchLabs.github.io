@@ -1,171 +1,183 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<title>Scotch'n'Soda Theatre</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<!--web-fonts-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-<!--js-->
-<script src="js/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-	</script>
-<!-- //end-smoth-scrolling -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Scotch'n'Soda Theatre</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!--web-fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!--js-->
+    <script src="js/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    <!-- //end-smoth-scrolling -->
 </head>
 <body>
-<!--header start here-->
-<div class="mother-grid">
-	<div class="container">
-		<div class="header">
-			<div class="header-left">
-				   <a href="index.html"> <img src="images/logo.png"> </a>
-			</div>
-			<span class="menu"> <img src="images/icon-1.png"></span>
-			<div class="clear"> </div>
-			<div class="header-right">
-				  <ul class="res">
-				  	   <li><a href="about.html">ABOUT</a></li>
-				  	   <li><a href="getinvolved.html">GET INVOLVED</a></li>
-				  	   <li><a href="events.html">CURRENT SEASON</a></li>
-				  	   <li><a href="subtroupes.html">SUBTROUPES</a></li>
-				  	   <li><a href="contact.html">CONTACT</a></li>
-				  </ul>
-				   <script>
-			                                                      $( "span.menu").click(function() {
-			                                                                                        $(  "ul.res" ).slideToggle("slow", function() {
-			                                                                                         // Animation complete.
-			                                                                                         });
-			                                                                                         });
-		                                                     </script>
-			</div>
-	<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!--/header end here-->
-
-<div class="contant">
-	<div class="container">
-		<div class="contant-main">
-			<div class="col-md-12 contant-left">
-				<h3>CURRENT SEASON</h3>
-					<ul class="aro">
-						<li><b>The Mousetrap</b><br><p></p><p>A manor stands alone in the English countryside. The roads are shutdown for miles with blizzard. A few miles away, a cry rings out in a small corner of London. A murder, whose perpetrator has set their sights on the manor. But all that's the least of our problems... because what on Earth are we going to have for dinner?!
-							<br>Come see all the danger, daring, and domestic disharmony in Agatha Christie's THE MOUSETRAP! Will these eight British idiots be able to keep themselves from getting offed? Is one of them really the murderer? And when is that bloody radiator going to get fixed?! All this and more at The Mousetrap!</p></li>
-						<li><b>The House of Yes</b><br><p>THE HOUSE OF YES welcomes you to a wealthy, insular family living in Washington DC, just down the street from the Kennedy's home. Marty brings his fiancée home for Thanksgiving to meet his strange, insular family. This includes his unstable twin sister, who calls herself Jackie-O after Jackie Onassis Kennedy. Look forward to a hilarious, exciting, and thought-provoking evening as you see what unfolds this fateful Thanksgiving, after the doors are opened to the truth of wealth and insularity. Watch the characters reveal their true natures, blurred with amorality and the inability to understand the concept of “no”. Reality is not always certain. Welcome to The House of Yes.</p></li>
-						<li><b>Young Frankenstein</b><br><p>Grandson of the infamous Victor Frankenstein, Frederick Frankenstein (pronounced "Fronk-en-steen") inherits his family's estate in Transylvania. With the help of a hunchbacked sidekick, Igor, and a leggy lab assistant, Inga, Frederick finds himself in the mad scientist shoes of his ancestors. "It's alive!" he exclaims as he brings to life a creature to rival his grandfather's. Eventually, of course, the monster escapes and hilarity continuously abounds.</p></li>
-
-					</ul>
-				<br>
-				<h3>PAST SEASON</h3>
-				<ul class="aro">
-					<li><b>Heathers: The Musical</b><br><p>HEATHERS THE MUSICAL is the darkly delicious story of Veronica Sawyer, a brainy, beautiful teenage misfit who hustles her way into the most powerful and ruthless clique at Westerberg High: The Heathers. But before she can get comfortable atop the high school food chain, Veronica falls in love with the dangerously sexy new kid J.D. When Heather Chandler, the Almighty, kicks her out of the group, Veronica decides to bite the bullet and kiss Heather’s aerobicized ass… but J.D. has another plan for that bullet.</p></li>
-					<li><b>Rosencrantz and Guildenstern are Dead</b><br><p>“ROSENCRANTZ AND GUILDENSTERN ARE DEAD!” announces the ambassador from England. Tom Stoppard breathes new life into this hapless duo, who are poetically tricked into delivering the order of their own deaths.
-						In an inversion of Hamlet, the pair attempt to offer musings on the nature of reality and death as they remain trapped on stage, in between extravagant disruptions by the royal family, a roving band of actors, and a wildly unfortunate pirate attack.
-						Despite their attempts to gain some control over their situation, the events of the play carry them inevitably, inexorably to their deaths.</p></li>
-					<li><b>Murder Ballad</b><br><p>A steamy exploration of the complications of love, the compromises we make, and the betrayals that undo us, MURDER BALLAD is the dramatic story of a love triangle gone wrong, centering on Sara, an uptown girl who seems to have it all, but whose downtown past lingers enticingly and dangerously in front of her.
-						 </p></li>
-					<li><b>The Addams Family</b><br><p>Wednesday Addams, the ultimate princess of darkness, has grown up and found love with Lucas Beineke, a “normal” boy from Ohio, whom her parents have never met. She invites the Beineke family over for dinner at the Addams house in the hopes that her bizarre family can appear normal long enough to impress the Beinekes. However, Wednesday has a huge secret - she and Lucas are engaged. Wednesday knows that her mother, Morticia, will not approve, so she confides in her father, Gomez, and begs him not to tell Morticia. Now Gomez must do the impossible; he must keep a secret from his beloved wife, who values honesty above all in their marriage.</p></li>
-					</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-
-<!--footer start here-->
-<div class="footer">
-	<div class="container">
-		<div class="footer-main">
-			<div class="col-md-6 footer-top">
-				<h3>ABOUT US</h3>
-				<p>Scotch'n'Soda Theatre is a student-run theatre organization at Carnegie Mellon University. Its initial dedication was the creation and production of original musicals.
-					Currently students are welcome to write, compose, design, direct, perform in, and otherwise become involved with every aspect of each production.
-			</p>
-				<br>
-				<p>The organization is open to all Carnegie Mellon students from all backgrounds, and all performances are public with varying ticket prices.</p>
-			</div>
-			<div class="col-md-2 footer-top">
-				<h3>SITEMAP </h3>
-				<ul>
-					<li><a href="index.html"> HOME</a></li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="getinvolved.html">GET INVOLVED</a></li>
-					<li><a href="events.html">EVENTS</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
-				</ul>
-				<div class="clear fix"> </div>
-			</div>
-			<div class="col-md-2 footer-top">
-				 <h3>GET SOCIAL</h3>
-				 <ul>
-					 <li><a href="https://www.instagram.com/scotchnsodatheatre" target="_blank"><img width="50px" src="images/instagram.svg"></a></li>
-					<li><a href="https://www.twitter.com/snstheatre" target="_blank"><img width="50px" src="images/twitter.svg"></a></li>
-					<li><a href="https://www.youtube.com/channel/UCYRoT4XEPocbe-3GNEutgIA" target="_blank"><img width="50px" src="images/002-youtube.svg"></a></li>
-					<li><a href="https://www.facebook.com/snstheatre/" target="_blank"><img width="50px" src="images/003-facebook.svg"></a></li>
-				</ul>
-			</div>
-			<div class="col-md-2 footer-top">
-				<h3>ADDRESS</h3>
-				<P>5000 Forbes Avenue</p>
-				<p>Pittsburgh, PA 15213</p>
-				<p>Basement of Cohen University Center</p>
-			</div>
-			<div class="clear fix"> </div>
-		</div>
-	</div>
-</div>
-<div class="copyright">
-	<div class="container">
-		<div class="copy-right-main">
-			<div class="col-md-6 copy-left">
-				<p>2018 &copy Scotch'n'Soda Theatre. Website created by William Liu</p>
-			</div>
-			<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear'
-								 		};
-										*/
-
-										$().UItoTop({ easingType: 'easeOutQuart' });
-
-									});
-								</script>
-					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
+    <!--header start here-->
+    <div class="mother-grid">
+        <div class="container">
+            <div class="header">
+                <div class="header-left">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                </div>
+                <span class="menu"><img src="images/icon-1.png"></span>
+                <div class="clear"></div>
+                <div class="header-right">
+                    <ul class="res">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="getinvolved.html">GET INVOLVED</a></li>
+                        <li><a href="events.html">CURRENT SEASON</a></li>
+                        <li><a href="subtroupes.html">SUBTROUPES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <script>
+                        $("span.menu").click(function() {
+                            $("ul.res").slideToggle("slow", function() {
+                                // Animation complete.
+                            });
+                        });
+                    </script>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--/header end here-->
+    <div class="contant">
+        <div class="container">
+            <div class="contant-main">
+                <div class="col-md-12 contant-left">
+                    <h3>CURRENT SEASON</h3>
+                    <ul class="aro">
+                        <li>
+                            <b>The Mousetrap</b><br>
+                            <p>A manor stands alone in the English countryside. The roads are shutdown for miles with blizzard. A few miles away, a cry rings out in a small corner of London. A murder, whose perpetrator has set their sights on the manor. But all that's the least of our problems... because what on Earth are we going to have for dinner?! Come see all the danger, daring, and domestic disharmony in Agatha Christie's THE MOUSETRAP! Will these eight British idiots be able to keep themselves from getting offed? Is one of them really the murderer? And when is that bloody radiator going to get fixed?! All this and more at The Mousetrap!</p>
+                        </li>
+                        <li>
+                            <b>The House of Yes</b><br>
+                            <p>THE HOUSE OF YES welcomes you to a wealthy, insular family living in Washington DC, just down the street from the Kennedy's home. Marty brings his fiancée home for Thanksgiving to meet his strange, insular family. This includes his unstable twin sister, who calls herself Jackie-O after Jackie Onassis Kennedy. Look forward to a hilarious, exciting, and thought-provoking evening as you see what unfolds this fateful Thanksgiving, after the doors are opened to the truth of wealth and insularity. Watch the characters reveal their true natures, blurred with amorality and the inability to understand the concept of “no”. Reality is not always certain. Welcome to The House of Yes.</p>
+                        </li>
+                        <li>
+                            <b>Young Frankenstein</b><br>
+                            <p>Grandson of the infamous Victor Frankenstein, Frederick Frankenstein (pronounced "Fronk-en-steen") inherits his family's estate in Transylvania. With the help of a hunchbacked sidekick, Igor, and a leggy lab assistant, Inga, Frederick finds himself in the mad scientist shoes of his ancestors. "It's alive!" he exclaims as he brings to life a creature to rival his grandfather's. Eventually, of course, the monster escapes and hilarity continuously abounds.</p>
+                        </li>
+                    </ul>
+                    <br>
+                    <h3>PAST SEASON</h3>
+                    <ul class="aro">
+                        <li>
+                            <b>Heathers: The Musical</b><br>
+                            <p>HEATHERS THE MUSICAL is the darkly delicious story of Veronica Sawyer, a brainy, beautiful teenage misfit who hustles her way into the most powerful and ruthless clique at Westerberg High: The Heathers. But before she can get comfortable atop the high school food chain, Veronica falls in love with the dangerously sexy new kid J.D. When Heather Chandler, the Almighty, kicks her out of the group, Veronica decides to bite the bullet and kiss Heather’s aerobicized ass… but J.D. has another plan for that bullet.</p>
+                        </li>
+                        <li>
+                            <b>Rosencrantz and Guildenstern are Dead</b><br>
+                            <p>“ROSENCRANTZ AND GUILDENSTERN ARE DEAD!” announces the ambassador from England. Tom Stoppard breathes new life into this hapless duo, who are poetically tricked into delivering the order of their own deaths.
+                            In an inversion of Hamlet, the pair attempt to offer musings on the nature of reality and death as they remain trapped on stage, in between extravagant disruptions by the royal family, a roving band of actors, and a wildly unfortunate pirate attack. Despite their attempts to gain some control over their situation, the events of the play carry them inevitably, inexorably to their deaths.</p>
+                        </li>
+                        <li>
+                            <b>Murder Ballad</b><br>
+                            <p>A steamy exploration of the complications of love, the compromises we make, and the betrayals that undo us, MURDER BALLAD is the dramatic story of a love triangle gone wrong, centering on Sara, an uptown girl who seems to have it all, but whose downtown past lingers enticingly and dangerously in front of her.</p>
+                         </li>
+                        <li>
+                            <b>The Addams Family</b><br>
+                            <p>Wednesday Addams, the ultimate princess of darkness, has grown up and found love with Lucas Beineke, a “normal” boy from Ohio, whom her parents have never met. She invites the Beineke family over for dinner at the Addams house in the hopes that her bizarre family can appear normal long enough to impress the Beinekes. However, Wednesday has a huge secret - she and Lucas are engaged. Wednesday knows that her mother, Morticia, will not approve, so she confides in her father, Gomez, and begs him not to tell Morticia. Now Gomez must do the impossible; he must keep a secret from his beloved wife, who values honesty above all in their marriage.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--footer start here-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="col-md-6 footer-top">
+                    <h3>ABOUT US</h3>
+                    <p>Scotch'n'Soda is a student-run theatre organization at Carnegie Mellon University. Its initial dedication was the creation and production of original musicals. Currently students are welcome to write, compose, design, direct, perform in, and otherwise become involved with every aspect of each production.</p>
+                    <br>
+                    <p>The organization is open to all Carnegie Mellon students from all backgrounds, and all performances are public with varying ticket prices.</p>
+                </div>
+                <div class="col-md-2 footer-top">
+                    <h3>SITEMAP</h3>
+                    <ul>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="getinvolved.html">GET INVOLVED</a></li>
+                        <li><a href="events.html">CURRENT SEASON</a></li>
+                        <li><a href="subtroupes.html">SUBTROUPES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <div class="clear fix"></div>
+                </div>
+                <div class="col-md-2 footer-top">
+                     <h3>GET SOCIAL</h3>
+                     <ul>
+                        <li><a href="https://www.instagram.com/scotchnsodatheatre" target="_blank"><img width="50px" src="images/instagram.svg"></a></li>
+                        <li><a href="https://www.twitter.com/snstheatre" target="_blank"><img width="50px" src="images/twitter.svg"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCYRoT4XEPocbe-3GNEutgIA" target="_blank"><img width="50px" src="images/002-youtube.svg"></a></li>
+                        <li><a href="https://www.facebook.com/snstheatre/" target="_blank"><img width="50px" src="images/003-facebook.svg"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 footer-top">
+                    <h3>ADDRESS</h3>
+                    <p>5000 Forbes Avenue</p>
+                    <p>Pittsburgh, PA 15213</p>
+                    <p>Basement of Cohen University Center</p>
+                </div>
+                <div class="clear fix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="copy-right-main">
+                <div class="col-md-6 copy-left">
+                    <p>2018 &copy Scotch'n'Soda Theatre. Website created by William Liu</p>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        /*
+                        var defaults = {
+                              containerID: 'toTop', // fading element id
+                            containerHoverID: 'toTopHover', // fading element hover id
+                            scrollSpeed: 1200,
+                            easingType: 'linear'
+                         };
+                        */
+                        $().UItoTop({ easingType: 'easeOutQuart' });
+                    });
+                </script>
+                <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
