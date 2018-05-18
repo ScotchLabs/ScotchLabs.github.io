@@ -1,6 +1,6 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
+Template: W3layouts
+Template URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
@@ -57,7 +57,8 @@ span.menu{
 /*--header style end here--*/
 /*--banner style start here--*/
 .banner{
-	background:url(../images/new_works.jpg)no-repeat;
+	background:url(../images/plug.jpg)no-repeat;
+	background-position: center;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -66,7 +67,8 @@ span.menu{
 	-ms-background-size:cover;
 }
 .banner-two{
-	background:url(../images/shout.png)no-repeat;
+	background:url(../images/show.jpg)no-repeat;
+	background-position: center;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -75,7 +77,8 @@ span.menu{
 	-ms-background-size:cover;
 }
 .banner-three{
-	background:url(../images/new_members.png)no-repeat;
+	background:url(../images/members.jpg)no-repeat;
+	background-position: center 10%;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -84,16 +87,8 @@ span.menu{
 	-ms-background-size:cover
 }
 .banner-four{
-	background:url(../images/heathers_big.png)no-repeat;
-	min-height:600px;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-}
-.banner-temp{
-	background:url(../images/tisbert_tonight.png)no-repeat;
+	background:url(../images/prod.jpg)no-repeat;
+	background-position: center 80%;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -939,7 +934,7 @@ select {
 }
 /*--give end here--*/
 /*--contact start here--*/
-.text {
+.contact-text {
 	margin: 10px 0px;
 }
 .contact {
@@ -971,7 +966,7 @@ select {
 	resize: none;
 	padding: 10px;
 	vertical-align: top;
-	margin-left: 30px;
+	margin-left: 2em;
 }
 .contact-main input[type="submit"] {
 	padding: 10px 2em;
@@ -982,7 +977,7 @@ select {
 	color: #fff;
 	background: #777;
 	border: none;
-	margin-left: 5em;
+	margin-left: 2em;
 }
 .contact-main input[type="submit"]:hover{
 	background:#ec4700;
@@ -1284,9 +1279,9 @@ span.menu img {
 	font-size: 13px;
 	width: 100%;
 }
-.grid-column img {
+/*.grid-column img {
 	width:12%;
-}
+}*/
 .services-right img {
 	width: 50%;
 	margin-left: 7em;
@@ -1475,11 +1470,18 @@ select {
 	font-size: 1.2em;
 	margin-bottom: 0.5em;
 }
-.text {
+.contact-text {
 	font-size: 13px;
+	text-align: center;
 }
 .contact-main textarea {
-	margin-left: 20px;
+	margin-left: 0;
+}
+.contact-main input[type="text"] {
+	margin-left: 0;
+}
+.contact-main input[type="submit"] {
+	margin-left: 0;
 }
 .contact {
 	padding: 2em 0px;
@@ -1498,9 +1500,9 @@ span.menu img {
 .header {
 	padding: 5px 0px;
 }
-.grid-column img {
+/*.grid-column img {
 	width: 20%;
-}
+}*/
 .banner-main {
 	padding-top:1em;
 }
@@ -1703,20 +1705,18 @@ select {
 	font-size: 1em;
 }
 .contact-main input[type="text"] {
-	margin-left: 1em;
-	padding:3px;
+	margin-left: 0;
 }
-.text {
+.contact-text {
 	font-size: 11px;
+	text-align: center;
 }
 .contact-main textarea {
-	margin-left: 5px;
-	height:5em;
-	width:79%;
+	margin-left: 0;
 }
 .contact-main input[type="submit"] {
 	font-size: 11.5px;
-	margin-left: 4em;
+	margin-left: 0;
 }
 .contact {
 	min-height: 600px;
