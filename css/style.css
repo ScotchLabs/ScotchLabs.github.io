@@ -350,11 +350,12 @@ span.menu{
 	line-height: 1.8em;
 }
 .grid-column img {
+	width: 75%;
 	border: 3px solid #ec4700;
 	border-radius: 25%;
-  -webkit-border-radius:25%;
-  -moz-border-radius:25%;
-  -o-border-radius:25%;
+	-webkit-border-radius:25%;
+	-moz-border-radius:25%;
+	-o-border-radius:25%;
 }
 /*--top grid style end here--*/
 /*--vedio start here--*/
@@ -1129,6 +1130,9 @@ ul.res li a:hover,ul.res li a.active{
 }
 .grid-column {
 	margin-bottom: 0em;
+}
+.grid-column img {
+	width:50%;
 }
 .service-top p {
 	width: 100%;
