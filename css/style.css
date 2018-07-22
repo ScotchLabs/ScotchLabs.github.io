@@ -222,7 +222,7 @@ span.menu{
 	text-decoration: none;
 	height: 61px;
 	width: 55px;
-	background: transparent url("../images/themes.png") no-repeat left top;
+	/*background: transparent url("../images/themes.png") no-repeat left top;*/
 	margin-top: -65px;
 }
 .callbacks_nav:active {
