@@ -45,14 +45,14 @@ span.menu{
 	color:#838383;
 	font-size:15px;
 	font-weight:400;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition:  0.5s all;
+	-o-transition:  0.5s all;
 }
 .header-right ul li a:hover,.header-right ul li a.active{
 	color:#EC4700;
 	text-decoration:none;
-   transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition:  0.5s all;
-	-o-transition:  0.5s all;
 }
 /*--header style end here--*/
 /*--banner style start here--*/
@@ -422,15 +422,15 @@ span.e {
 	padding: 10px 1em;
 	background-color: #ec4700;
 	cursor:pointer;
-}
-.bwn a:hover{
-	color:#fff;
-	background-color:#000;
-	text-decoration:none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition:  0.5s all;
 	-o-transition:  0.5s all;
+}
+.bwn a:hover{
+	color:#fff;
+	background-color:#a02f00;
+	text-decoration:none;
 }
 /*--services end here--*/
 /*--footer style start here--*/
@@ -461,14 +461,14 @@ span.e {
 	font-size: 16px;
 	font-weight: 300;
 	color: #fff;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition:  0.5s all;
+	-o-transition:  0.5s all;
 }
 .footer-top ul li a:hover {
 	color:#ec4700;
 	text-decoration:none;
-	 transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition:  0.5s all;
-	-o-transition:  0.5s all;
 }
 .news {
 	padding-bottom: 1.2em;
@@ -494,14 +494,14 @@ span.e {
 	font-size: 13px;
 	font-weight: 300;
 	color: #ec4700;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition:  0.5s all;
+	-o-transition:  0.5s all;
 }
 .footer-top p a:hover{
 	color:#fff;
 	text-decoration:none;
-	 transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition:  0.5s all;
-	-o-transition:  0.5s all;
 }
 /*--footer end here--*/
 /*--copyrights start here--*/
@@ -517,14 +517,14 @@ span.e {
 	font-size: 15px;
 	font-weight: 400;
 	color: #666666;
-}
-.copy-left p a:hover{
-	color:#ec4700;
-	text-decoration:none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition:  0.5s all;
 	-o-transition:  0.5s all;
+}
+.copy-left p a:hover{
+	color:#ec4700;
+	text-decoration:none;
 }
 .copy-right {
 	text-align: right;
@@ -650,6 +650,14 @@ span.e {
 	font-weight: 600;
 	vertical-align: super;
 	line-height: 1.6em;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+.contant-left ul li a:hover{
+	text-decoration: none;
+	color: #000;
 }
 .contant-left ul li p {
 	color: #999;
@@ -657,14 +665,6 @@ span.e {
 	font-weight: 600;
 	vertical-align: super;
 	line-height: 1.6em;
-}
-.contant-left ul li a:hover{
-	text-decoration: none;
-	color: #000;
-	transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
 }
 .contant-left ul.aro li{
      list-style-image :url(../images/arrow.png);
@@ -739,14 +739,14 @@ span.e {
 	border: 1px solid;
 	padding: 8px 1em;
 	background: #000;
-}
-.getinvoled-main a:hover {
-	background: #ec4700;
-	text-decoration: none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition:  0.5s all;
 	-o-transition:  0.5s all;
+}
+.getinvoled-main a:hover {
+	background: #ec4700;
+	text-decoration: none;
 }
 /*--getinvolid end here--*/
 /*--give start here--*/
@@ -787,19 +787,17 @@ span.e {
 }
 .donate-banner-right ul li a span.fa {
 	background-position: 11px 5px;
-}
-.donate-banner-right ul li a span.tw {
-	background-position: -20px 5px;
-}
-.donate-banner-right ul li a span.g {
-	background-position: -53px 5px;
-}
-.donate-banner-right ul li a span.e {
-	background-position: -85px 5px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition:  0.5s all;
+	-o-transition:  0.5s all;
 }
 .donate-banner-right ul li a span.fa:hover {
 	background-position: 11px 5px;
 	background-color: black;
+}
+.donate-banner-right ul li a span.tw {
+	background-position: -20px 5px;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition:  0.5s all;
@@ -808,6 +806,9 @@ span.e {
 .donate-banner-right ul li a span.tw:hover {
 	background-position: -20px 5px;
 	background-color: black;
+}
+.donate-banner-right ul li a span.g {
+	background-position: -53px 5px;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition:  0.5s all;
@@ -816,6 +817,9 @@ span.e {
 .donate-banner-right ul li a span.g:hover {
 	background-position: -53px 5px;
 	background-color: black;
+}
+.donate-banner-right ul li a span.e {
+	background-position: -85px 5px;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition:  0.5s all;
@@ -824,10 +828,6 @@ span.e {
 .donate-banner-right ul li a span.e:hover {
 	background-position: -85px 5px;
 	background-color: black;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition:  0.5s all;
-	-o-transition:  0.5s all;
 }
 .donate-left img {
     width: 100%;
@@ -904,14 +904,14 @@ select {
 	font-weight: 600;
 	margin-right: 2em;
 	color: #000;
-}
-.donate-top a:hover{
-	color:#000;
-	text-decoration:none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition:  0.5s all;
 	-o-transition:  0.5s all;
+}
+.donate-top a:hover{
+	color:#000;
+	text-decoration:none;
 }
 .donate-top input[type="submit"] {
 	font-size: 14px;
@@ -923,15 +923,15 @@ select {
 	color: #fff;
 	border-radius: 5px;
 	cursor: pointer;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition:  0.5s all;
+	-o-transition:  0.5s all;
 }
 .donate-top input[type="submit"]:hover {
 	background: #777;
 	color:#fff;
 	text-decoration:none;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition:  0.5s all;
-	-o-transition:  0.5s all;
 }
 /*--give end here--*/
 /*--contact start here--*/
@@ -979,14 +979,14 @@ select {
 	background: #777;
 	border: none;
 	margin-left: 2em;
-}
-.contact-main input[type="submit"]:hover{
-	background:#ec4700;
-	color:#fff;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition:  0.5s all;
 	-o-transition:  0.5s all;
+}
+.contact-main input[type="submit"]:hover{
+	background:#ec4700;
+	color:#fff;
 }
 iframe{
 	 width:100%;
@@ -1148,6 +1148,16 @@ ul.res li a:hover,ul.res li a.active{
 }
 .footer-top h3{
 	margin-bottom: 0em
+}
+.footer-social h3{
+	margin-bottom: 13px;
+}
+.footer-social li {
+	display: inline;
+	margin-top: 13px;
+}
+.footer-social li img{
+	margin-right: 8px;
 }
 .about-top {
 	margin-bottom: 1em;
